@@ -1,0 +1,155 @@
+/* Reset and base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #1e1e2f;
+  margin-top: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 1.2em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #007bff;
+}
+
+/* Main content */
+main {
+  padding: 2em;
+}
+
+/* Section titles */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.listing-header h3 {
+  font-size: 1.5rem;
+}
+
+/* Filter dropdown */
+.filter-options {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-bottom: 1.5em;
+}
+
+#sort {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Listings grid layout */
+.listing-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Listing card */
+.listing-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.2em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.listing-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Car image styling */
+.listing-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8em;
+}
+
+/* Car details */
+.listing-item h3 {
+  margin: 0.5em 0 0.2em;
+}
+
+.listing-item p {
+  margin: 0.2em 0;
+}
+
+/* CTA button */
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 0.95em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #0a0a23;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em;
+  margin-top: 3em;
+}
+/* Footer links */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5em;
+}

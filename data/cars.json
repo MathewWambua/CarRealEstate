@@ -1,0 +1,21 @@
+[
+    {
+      "image": "/images/download (7).jpg",
+      "title": "2025 Tesla Model S",
+      "price": "$80,000",
+      "mileage": "10,000 miles"
+    },
+    {
+      "image": "/images/download (6).jpg",
+      "title": "2024 Ford Mustang",
+      "price": "$45,000",
+      "mileage": "5,000 miles"
+    },
+    {
+      "image": "/images/download (5).jpg",
+      "title": "2023 BMW M3",
+      "price": "$70,000",
+      "mileage": "8,000 miles"
+    }
+  ]
+  

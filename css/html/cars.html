@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse high-quality used and new car listings from Car Real Estate. Tesla, Ford, BMW, and more." />
+  <meta name="keywords" content="Cars, Real Estate, Listings, Tesla, Ford, BMW, Used Cars, New Cars" />
+  <title>Car Listings - Car Real Estate</title>
+  <link rel="stylesheet" href="/css/cars.css" />
+</head>
+<body>
+  <header>
+    <h1>Car Real Estate</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cars.html" class="active">Cars</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="submit.html">Submit Listing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Find Your Dream Car</h2>
+      <p>Browse a selection of high-quality cars for sale, from the latest models to pre-owned gems.</p>
+      <button onclick="window.location.href='cars.html'">View Cars</button>
+    </section>
+
+    <section class="listing-header">
+      <h3>Latest Car Listings</h3>
+      <div class="filter-options">
+        <label for="sort">Sort by:</label>
+        <select id="sort" name="sort">
+          <option value="price">Price</option>
+          <option value="mileage">Mileage</option>
+          <option value="year">Year</option>
+        </select>
+      </div> 
+    </section>
+
+    <section id="car-list" class="listing-container">
+      <!-- Car listings will be dynamically added here -->
+      <!-- Example Car Listing -->
+      <div class="listing-item">
+        <img src="/images/download (6).jpg" alt="Tesla Model S" />
+        <h3>2025 Tesla Model S</h3>
+        <p>Price: $80,000</p>
+        <p>Mileage: 10,000 miles</p>
+        <button class="btn">View Details</button>
+      </div>
+      <div class="listing-item">
+        <img src="/images/download (6).jpg" alt="Ford Mustang" />
+        <h3>2024 Ford Mustang</h3>
+        <p>Price: $45,000</p>
+        <p>Mileage: 5,000 miles</p>
+        <button class="btn">View Details</button>
+      </div>
+      <div class="listing-item">
+        <img src="/images/download (5).jpg" alt="BMW X5" />
+        <h3>2023 BMW X5</h3>
+        <p>Price: $70,000</p>
+        <p>Mileage: 15,000 miles</p>
+        <button class="btn">View Details</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Car Real Estate</p>
+  </footer>
+
+  <script src="/js/cars.js"></script>
+</body>
+</html>
+<!-- Compare this snippet from cars.js: -->
+<!-- // Sample data for car listings (this would typically come from a database) -->    
+ -->
